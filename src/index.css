@@ -4,13 +4,13 @@
   margin: 0; 
   font-family: 'Roboto Condensed', sans-serif;
   color: black; 
-  background-color: f1f0ea;
+  background-color: #f1f0ea;
 }
 
 /* NAVBAR CSS */
 
 .navbar {
-  padding: 2em; 
+  padding: 1em; 
   display: flex; 
   align-items: center;
   justify-content: space-between;
@@ -28,6 +28,7 @@
 .navbar a {
   margin-left: 1em; 
   text-decoration: none;
+  letter-spacing: 2px;
   padding: 6px; 
 }
 .navbar .links a:hover {
@@ -40,5 +41,28 @@
 .webContent {
   max-width: 75%;
   margin: auto; 
-  padding: 3em; 
+  padding-top: 3em; 
 }
+
+/* HOME PAGE  */
+
+.flex-container{
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-around;
+}
+.firstComponent .homeImg {
+  width: 50%; 
+  padding: 1em; 
+  margin-left: 1em;
+  border: 3px solid black; 
+
+}
+.firstComponent .heading {
+  padding-top: 4em;
+  padding-right: 2em; 
+  align-items: center;
+}
+
+/* ABOUT PAGE */
+
