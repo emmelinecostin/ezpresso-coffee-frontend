@@ -1,68 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
 
-*{
-  margin: 0; 
-  font-family: 'Roboto Condensed', sans-serif;
-  color: black; 
-  background-color: #f1f0ea;
+html {
+  background: linear-gradient(90deg, #ebebeb 50%, #fff 50%);
+  height: 100%;
+}
+
+* {
+  margin: 0 auto;
+  font-family: "Roboto Condensed", sans-serif;
+  color: black;
 }
 
 /* NAVBAR CSS */
 
 .navbar {
-  padding: 1em; 
-  display: flex; 
-  align-items: center;
-  justify-content: space-between;
+  padding: 1em;
   max-width: 80%;
-  margin: 0 auto; 
-  border-bottom: 1px solid #2d232e;
+  margin: 0 auto;
+  font-size: 1.1em;
 }
-.navbar .logo {
-  border-radius: 50%;
-  width: 40%; 
-}
-.navbar .links {
-  margin-left: auto; 
+.navbar .link {
+  float: right;
+  flex-flow: row-reverse;
 }
 .navbar a {
-  margin-left: 1em; 
+  margin-left: 1em;
   text-decoration: none;
-  letter-spacing: 2px;
-  padding: 6px; 
+  letter-spacing: 1px;
+  padding: 6px;
 }
-.navbar .links a:hover {
-  background-color: #534b52; 
-  color: rgb(215, 218, 211); 
+.navbar .link:hover {
+  background-color: #534b52;
+  color: rgb(215, 218, 211);
 }
 
 /* WEBSITE CSS */
 
-.webContent {
+/* .webContent {
   max-width: 75%;
   margin: auto; 
   padding-top: 3em; 
-}
+} */
 
 /* HOME PAGE  */
-
-.flex-container{
-  display: flex; 
+.flex-container {
+  display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  height: 100%;
+  padding: 3em;
 }
 .firstComponent .homeImg {
-  width: 50%; 
-  padding: 1em; 
+  width: 50%;
+  padding: 1em;
   margin-left: 1em;
-  border: 3px solid black; 
-
+  filter: drop-shadow(10px 20px 4px lightgrey);
 }
 .firstComponent .heading {
   padding-top: 4em;
-  padding-right: 2em; 
+  padding-right: 2em;
   align-items: center;
+  border: 1px solid black;
 }
-
-/* ABOUT PAGE */
-

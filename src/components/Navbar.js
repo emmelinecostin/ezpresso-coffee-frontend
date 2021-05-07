@@ -1,16 +1,25 @@
-import logo from '../Images/logo.jpg';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
-console.log(logo);
 const Navbar = () => {
+    const [click, setClick] = useState(false);
+
+    const handleClick = () => setClick(!click)
     return (
-        <nav className="navbar">
-            <a href="/" ><img className="logo" alt="" src={logo}></img></a>
-            <div className="links">
-                <a href="/">HOME</a>
-                <a href="/about">ABOUT</a>
-                <a href="/inquires">INQUIRES</a>
-            </div>
-        </nav>
+        <>
+            <nav className="navbar">
+                <div className="navbar-container">
+                    <Link to="/" >
+                        <h1>EZPRESSO</h1>
+                        <p style={{ letterSpacing: "3px" }}>Coffee Bar</p>
+                    </Link> 
+                    <Link to="/inquires" className="link">INQUIRES</Link>
+                    <Link to="/about" className="link">ABOUT</Link>
+                    <Link to="/" className="link">HOME</Link>
+                    
+                </div>
+            </nav>
+        </>
     );
 }
 

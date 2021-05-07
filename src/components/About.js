@@ -1,13 +1,12 @@
 import brothersPic from '../Images/brothers.png'
 
+
 const About = () => {
-    return (  
-        <div className="about">
-            <div className="pic">
-                <img alt="" src={brothersPic}></img>
-            </div>
+    return (
+        <div>
+            <h2 className="hello">hello</h2>
         </div>
     );
 }
- 
+
 export default About;
