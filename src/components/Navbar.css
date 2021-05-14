@@ -1,0 +1,26 @@
+.navbar .row {
+  display: flex; 
+    padding: 1em;
+    /* max-width: 80%; */
+    margin: 0 auto;
+    font-size: 1em;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .Logo p{
+    display:flex;
+    justify-content: center;
+    border: 1px solid black; 
+  }
+  .navbar a {
+    margin-left: 1em;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 6px;
+  }
+
+  .navbar .link:hover {
+    background-color: #183C28;
+    color: #FFFFFF;
+  }

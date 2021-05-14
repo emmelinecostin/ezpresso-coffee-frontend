@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <div className="webContent">
+        <div className="webContent main">
           <Switch>
             <Route exact path="/">
               <Home />
