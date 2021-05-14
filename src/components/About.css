@@ -1,0 +1,25 @@
+.aboutPic .brothersPic {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 500px;
+}
+
+.meet .brothers {
+    display: flex; 
+    justify-content: flex-end;
+    width: 80%;
+    color: black;
+    letter-spacing: 1.5px;
+    font-size: 2em;
+    font-weight: 200;
+    padding: .7em; 
+}
+
+.aboutUs {
+    display: flex; 
+    justify-content: center;
+    width: 70%; 
+    padding: 1.5em; 
+    line-height: 1.7;
+}
