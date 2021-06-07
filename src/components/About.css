@@ -7,7 +7,7 @@
 
 .meet .brothers {
     display: flex; 
-    justify-content: flex-end;
+    justify-content: flex-start;
     width: 80%;
     color: black;
     letter-spacing: 1.5px;
