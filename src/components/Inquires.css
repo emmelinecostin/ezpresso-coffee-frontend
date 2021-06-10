@@ -28,6 +28,7 @@
     width: 60%; 
     color: white; 
     border: 0; 
+    font-size: medium;
     padding: 15px; 
     border-radius: 8px;
     cursor: pointer;
