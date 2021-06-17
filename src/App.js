@@ -2,6 +2,8 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Inquires from './components/Inquires';
+import Footer from './components/Footer';
+import Gallery from './components/Gallery'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -21,7 +23,11 @@ function App() {
               <Inquires />
             </Route>
           </Switch>
+          <Route exact path="/gallery">
+              <Gallery />
+            </Route>
         </div>
+        <Footer />
       </div>
     </Router>
   );

@@ -11,7 +11,7 @@
   .navbar .Logo p{
     display:flex;
     justify-content: center;
-    border: 1px solid black; 
+    border: 1px solid #303030; 
   }
   .navbar a {
     margin-left: 1em;
@@ -21,6 +21,6 @@
   }
 
   .navbar .link:hover {
-    background-color: #183C28;
-    color: #FFFFFF;
+    background-color: #183c28;
+    color: #f0f0d8;
   }

@@ -102,6 +102,7 @@ const Inquires = () => {
                 </input>
                 <label>Additional Information of Event: </label>
                 <textarea
+                    rows="10"
                     type="text"
                     name="additionalInfo"
                     value={state.additionalInfo}
