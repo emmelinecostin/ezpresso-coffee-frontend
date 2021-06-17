@@ -1,13 +1,17 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import instagramLogo from '../Images/Instagramlogo.png'; 
+import './Footer.css'
 
 const Footer = () => {
-    return ( 
+    return (
         <div className="footer">
-            <h1>hello
-            </h1>
+            <div className="container">
+                <div className="copyright">Copyright © 2021 Ezpresso Coffee Bar</div>
+                <a href="https://www.instagram.com/ezpresso.coffee.bar/?hl=en">
+                    <img className="instagramLogo" src={instagramLogo}></img>
+                </a>
+            </div>
         </div>
-     );
+    );
 }
- 
+
 export default Footer;

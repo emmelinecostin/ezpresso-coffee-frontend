@@ -1,0 +1,21 @@
+.footer .container {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    background-color: #ebebeb ;
+    margin-top: .75em; 
+    padding: .50em;
+}
+
+.footer .instagramLogo {
+    width: 50px;
+    size: 50px;   
+    margin-right: 1em;
+}
+
+.footer .copyright {
+   display: flex;
+   justify-content: center;
+   flex: 3 1 350px
+}
+
