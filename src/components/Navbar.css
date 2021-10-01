@@ -7,7 +7,10 @@
     justify-content: space-between;
     align-items: center;
   }
+  .logoContainer {
+    padding: 1px 20px; 
   
+  }
   .navbar .Logo p{
     display:flex;
     justify-content: center;

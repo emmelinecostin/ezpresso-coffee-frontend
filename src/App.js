@@ -4,6 +4,7 @@ import About from './components/About';
 import Inquires from './components/Inquires';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery'
+import Menu from './components/Menu';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -22,10 +23,14 @@ function App() {
             <Route exact path="/inquires">
               <Inquires />
             </Route>
-          </Switch>
           <Route exact path="/gallery">
-              <Gallery />
-            </Route>
+            <Gallery />
+          </Route>
+          <Route exact path="/menu">
+            <Menu />
+          </Route>
+          </Switch>
+          
         </div>
         <Footer />
       </div>

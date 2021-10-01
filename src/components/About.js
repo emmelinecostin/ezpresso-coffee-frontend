@@ -1,10 +1,12 @@
-import brothersPic from '../Images/brothers.png'
+import brothersPic from '../Images/AboutPage.JPG'
 
 const About = () => {
     return (
         <div>
             <div className="container aboutPic">
-                <img className="brothersPic" alt="" style={{}} src={brothersPic}></img>
+                <img className="brothersPic picOne" alt="" style={{}} src={brothersPic}></img>
+                <img className="brothersPic picTwo" alt="" style={{}} src={brothersPic}></img>
+                <img className="brothersPic picThree" alt="" style={{}} src={brothersPic}></img>
             </div>
             <div className="container meet">
                 <h2 className="brothers">Meet the Zirbo Brothers</h2>

@@ -6,6 +6,7 @@ import './components/Home.css'
 import './components/About.css'
 import './components/Inquires.css'
 import './components/Gallery.css'
+import './components/Menu.css'
 import App from './App';
 
 ReactDOM.render(
