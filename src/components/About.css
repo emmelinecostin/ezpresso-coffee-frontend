@@ -1,8 +1,23 @@
-.aboutPic .brothersPic {
-  display: flex;
+.aboutPic {
+  display: flex; 
+  flex-direction: row;
   justify-content: center;
-  width: 80%;
-  height: 500px;
+  margin-top: 3rem;
+}
+
+.brothersPic{
+  height: 40rem; 
+  width: 25rem; 
+}
+
+.picOne{
+  margin: 0px 10px 50px 0px; 
+}
+.picTwo{
+  margin: 0px 10px 50px 10px; 
+}
+.picThree{
+  margin: 0px 10px 50px 10px; 
 }
 
 .meet .brothers {
@@ -13,7 +28,9 @@
     letter-spacing: 1.5px;
     font-size: 2em;
     font-weight: 200;
-    padding: .7em; 
+    margin-top: 3rem;
+    padding: 40px 0px 40px 0px; 
+    border-top: solid black 1px;
 }
 
 .aboutUs {
@@ -21,5 +38,7 @@
     justify-content: center;
     width: 70%; 
     padding: 1.5em; 
-    line-height: 1.7;
+    line-height: 2;
+    margin-top: 1 rem;
+    margin-bottom: 5rem;
 }
