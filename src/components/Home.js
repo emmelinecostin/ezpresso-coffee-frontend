@@ -10,7 +10,7 @@ const Home = () => {
                 <div className="container firstComponent">
                     <div className="container CTA">
                         <h1 className="intro">
-                            [INTRODUCTION PUNCH LINE]
+                            Whether it's weddings, parties, conferences, or any event, let us caffinate your guests so they don't miss a minute of your event!
                         </h1>
                     </div>
                 </div>

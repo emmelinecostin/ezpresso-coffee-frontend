@@ -1,3 +1,4 @@
+/* top image */
 .menuImg {
   max-width: 100%;
   width: 100%;
@@ -19,4 +20,72 @@
   top: 50%;
   transform: scaleY(1.8);
   z-index: -1;
+}
+
+/* menu heading  */
+.menuHeading {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+  margin-bottom: 50px;
+}
+.menuHeading h1 {
+  border-bottom: solid 3px black;
+  padding: 1em;
+}
+
+/* menu content */
+.menuContainer {
+  display: flex;
+  justify-content: row;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+.coffeeContainer,
+.milkContainer,
+.flavorsContainer {
+  background-color: #ebebeb;
+  padding: 7em;
+}
+.coffeeContainer h2,
+.milkContainer h2,
+.flavorsContainer h2 {
+  padding: 1em;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.coffeeContainer p,
+.milkContainer p,
+.flavorsContainer p {
+  padding: 0.25em 1em;
+  margin-bottom: 10px;
+}
+
+/* Requests  */
+.requestContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.requestContainer img {
+  margin-left: 2em;
+  width: 60%;
+  height: 50%;
+}
+.request {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.request h2 {
+  margin-bottom: 15px;
+}
+.request div {
+  width: 80%;
+  line-height: 30px;
 }

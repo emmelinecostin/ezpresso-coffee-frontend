@@ -23,14 +23,14 @@ function App() {
             <Route exact path="/inquires">
               <Inquires />
             </Route>
-          <Route exact path="/gallery">
-            <Gallery />
-          </Route>
-          <Route exact path="/menu">
-            <Menu />
-          </Route>
+            <Route exact path="/gallery">
+              <Gallery />
+            </Route>
+            <Route exact path="/menu">
+              <Menu />
+            </Route>
           </Switch>
-          
+
         </div>
         <Footer />
       </div>

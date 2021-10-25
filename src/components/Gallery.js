@@ -1,9 +1,9 @@
 const Gallery = () => {
-    return ( 
+    return (
         <div className="galleryPage">
-            <h1>hello  </h1>
+            <h1>Pictures yet to come ...   </h1>
         </div>
-     );
+    );
 }
- 
+
 export default Gallery;

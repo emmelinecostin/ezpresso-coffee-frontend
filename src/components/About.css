@@ -1,44 +1,43 @@
+/* picture groupings  */
 .aboutPic {
-  display: flex; 
+  display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 3rem;
 }
-
-.brothersPic{
-  height: 40rem; 
-  width: 25rem; 
+.brothersPic {
+  height: 40rem;
+  width: 25rem;
+}
+.picOne {
+  margin: 0px 10px 50px 0px;
+}
+.picTwo {
+  margin: 0px 10px 50px 10px;
+}
+.picThree {
+  margin: 0px 10px 50px 10px;
 }
 
-.picOne{
-  margin: 0px 10px 50px 0px; 
-}
-.picTwo{
-  margin: 0px 10px 50px 10px; 
-}
-.picThree{
-  margin: 0px 10px 50px 10px; 
-}
-
+/* about content */
 .meet .brothers {
-    display: flex; 
-    justify-content: flex-start;
-    width: 80%;
-    color: #303030;
-    letter-spacing: 1.5px;
-    font-size: 2em;
-    font-weight: 200;
-    margin-top: 3rem;
-    padding: 40px 0px 40px 0px; 
-    border-top: solid black 1px;
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  color: #303030;
+  letter-spacing: 1.5px;
+  font-size: 2em;
+  font-weight: 200;
+  margin-top: 3rem;
+  padding: 40px 0px 40px 0px;
+  border-top: solid black 1px;
 }
-
 .aboutUs {
-    display: flex; 
-    justify-content: center;
-    width: 70%; 
-    padding: 1.5em; 
-    line-height: 2;
-    margin-top: 1 rem;
-    margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  padding: 1.5em;
+  line-height: 2;
+  margin-top: 1 rem;
+  margin-bottom: 5rem;
 }

@@ -1,5 +1,5 @@
-import instagramLogo from '../Images/instagram.png'; 
-import facebookLogo from '../Images/facebook.png'; 
+import instagramLogo from '../Images/instagram.png';
+import facebookLogo from '../Images/facebook.png';
 import './Footer.css'
 
 const Footer = () => {

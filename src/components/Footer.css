@@ -1,21 +1,18 @@
 .footer .container {
-    display: flex; 
-    flex-direction: row;
-    align-items: center;
-    background-color: #ebebeb ;
-    margin-top: .75em; 
-    padding: .50em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ebebeb;
+  margin-top: 0.75em;
+  padding: 0.5em;
 }
-
 .footer .logo {
-    width: 2rem;
-    size: 2rem;   
-    margin-right: 1em;
+  width: 2rem;
+  size: 2rem;
+  margin-right: 1em;
 }
-
 .footer .copyright {
-   display: flex;
-   justify-content: center;
-   flex: 3 1 350px
+  display: flex;
+  justify-content: center;
+  flex: 3 1 350px;
 }
-
